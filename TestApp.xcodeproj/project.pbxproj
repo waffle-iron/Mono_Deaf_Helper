@@ -12,6 +12,7 @@
 		503205A21F52345C0038B0A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 503205A11F52345C0038B0A8 /* Assets.xcassets */; };
 		503205A51F52345C0038B0A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 503205A31F52345C0038B0A8 /* Main.storyboard */; };
 		503205B01F52345C0038B0A8 /* TestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503205AF1F52345C0038B0A8 /* TestAppTests.swift */; };
+		503205BB1F52356D0038B0A8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503205BA1F52356D0038B0A8 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		503205AB1F52345C0038B0A8 /* TestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		503205AF1F52345C0038B0A8 /* TestAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAppTests.swift; sourceTree = "<group>"; };
 		503205B11F52345C0038B0A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		503205BA1F52356D0038B0A8 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +59,9 @@
 		503205911F52345B0038B0A8 = {
 			isa = PBXGroup;
 			children = (
+				5032059B1F52345C0038B0A8 /* Products */,
 				5032059C1F52345C0038B0A8 /* TestApp */,
 				503205AE1F52345C0038B0A8 /* TestAppTests */,
-				5032059B1F52345C0038B0A8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,10 +78,11 @@
 			isa = PBXGroup;
 			children = (
 				5032059D1F52345C0038B0A8 /* AppDelegate.swift */,
-				5032059F1F52345C0038B0A8 /* ViewController.swift */,
 				503205A11F52345C0038B0A8 /* Assets.xcassets */,
-				503205A31F52345C0038B0A8 /* Main.storyboard */,
 				503205A61F52345C0038B0A8 /* Info.plist */,
+				503205A31F52345C0038B0A8 /* Main.storyboard */,
+				5032059F1F52345C0038B0A8 /* ViewController.swift */,
+				503205BA1F52356D0038B0A8 /* main.swift */,
 			);
 			path = TestApp;
 			sourceTree = "<group>";
@@ -87,8 +90,8 @@
 		503205AE1F52345C0038B0A8 /* TestAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				503205AF1F52345C0038B0A8 /* TestAppTests.swift */,
 				503205B11F52345C0038B0A8 /* Info.plist */,
+				503205AF1F52345C0038B0A8 /* TestAppTests.swift */,
 			);
 			path = TestAppTests;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			files = (
 				503205A01F52345C0038B0A8 /* ViewController.swift in Sources */,
 				5032059E1F52345C0038B0A8 /* AppDelegate.swift in Sources */,
+				503205BB1F52356D0038B0A8 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +231,7 @@
 				503205A41F52345C0038B0A8 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
