@@ -2,9 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:TestApp.xcodeproj">
+      location = "group:/Users/mihau/Developer/Private/TestApp/DeafHelper.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:DeafHelper.xcodeproj">
    </FileRef>
 </Workspace>

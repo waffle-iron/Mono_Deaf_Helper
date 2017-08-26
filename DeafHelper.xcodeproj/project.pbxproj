@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3D2FBAE047685B5CE5167BE3 /* Pods_TestAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F007F466BA43B7F98D447A4C /* Pods_TestAppTests.framework */; };
 		5032059E1F52345C0038B0A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5032059D1F52345C0038B0A8 /* AppDelegate.swift */; };
 		503205A01F52345C0038B0A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5032059F1F52345C0038B0A8 /* ViewController.swift */; };
 		503205A21F52345C0038B0A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 503205A11F52345C0038B0A8 /* Assets.xcassets */; };
 		503205B01F52345C0038B0A8 /* TestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503205AF1F52345C0038B0A8 /* TestAppTests.swift */; };
 		503205BB1F52356D0038B0A8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503205BA1F52356D0038B0A8 /* main.swift */; };
-		C2B34C12CDA5F58CFA3E1E65 /* Pods_TestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F9086FAD694B00CCC455899 /* Pods_TestApp.framework */; };
+		71ACB44AEE705E25700268EF /* Pods_DeafHelperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0424CC2479AC26FC2902AF86 /* Pods_DeafHelperTests.framework */; };
+		7C38AA5986A9DEA85F658738 /* Pods_DeafHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27845276D2F45F747B00A35B /* Pods_DeafHelper.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,21 +27,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1B66026A5F429F02D11FE8DC /* Pods-TestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestApp/Pods-TestApp.debug.xcconfig"; sourceTree = "<group>"; };
-		4E79390BC8BE61DEBE70F126 /* Pods-TestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestApp/Pods-TestApp.release.xcconfig"; sourceTree = "<group>"; };
-		5032059A1F52345C0038B0A8 /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0424CC2479AC26FC2902AF86 /* Pods_DeafHelperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeafHelperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		06DA2C583CE2C6B92F173C84 /* Pods-DeafHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeafHelper.release.xcconfig"; path = "Pods/Target Support Files/Pods-DeafHelper/Pods-DeafHelper.release.xcconfig"; sourceTree = "<group>"; };
+		27845276D2F45F747B00A35B /* Pods_DeafHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeafHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5032059A1F52345C0038B0A8 /* DeafHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeafHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5032059D1F52345C0038B0A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5032059F1F52345C0038B0A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		503205A11F52345C0038B0A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		503205A61F52345C0038B0A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		503205AB1F52345C0038B0A8 /* TestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		503205AB1F52345C0038B0A8 /* DeafHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeafHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		503205AF1F52345C0038B0A8 /* TestAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAppTests.swift; sourceTree = "<group>"; };
 		503205B11F52345C0038B0A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		503205BA1F52356D0038B0A8 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		526DE3228AD007645C8AA737 /* Pods-TestAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestAppTests/Pods-TestAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		7F9086FAD694B00CCC455899 /* Pods_TestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5905F76FFDD399A0E72495B /* Pods-TestAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestAppTests/Pods-TestAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		F007F466BA43B7F98D447A4C /* Pods_TestAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55F108CA348F98F3E5091705 /* Pods-DeafHelperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeafHelperTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DeafHelperTests/Pods-DeafHelperTests.release.xcconfig"; sourceTree = "<group>"; };
+		B3CAD0A4D62E0A507DD348CF /* Pods-DeafHelperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeafHelperTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DeafHelperTests/Pods-DeafHelperTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F3CC3DF75D6AE30444E87338 /* Pods-DeafHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeafHelper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DeafHelper/Pods-DeafHelper.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2B34C12CDA5F58CFA3E1E65 /* Pods_TestApp.framework in Frameworks */,
+				7C38AA5986A9DEA85F658738 /* Pods_DeafHelper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,7 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D2FBAE047685B5CE5167BE3 /* Pods_TestAppTests.framework in Frameworks */,
+				71ACB44AEE705E25700268EF /* Pods_DeafHelperTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,7 +71,6 @@
 				5032059F1F52345C0038B0A8 /* ViewController.swift */,
 				503205BA1F52356D0038B0A8 /* main.swift */,
 			);
-			name = Source;
 			path = Source;
 			sourceTree = "<group>";
 		};
@@ -81,111 +80,112 @@
 				503205A11F52345C0038B0A8 /* Assets.xcassets */,
 				503205A61F52345C0038B0A8 /* Info.plist */,
 			);
-			name = Helpers;
 			path = Helpers;
 			sourceTree = "<group>";
 		};
 		503205911F52345B0038B0A8 = {
 			isa = PBXGroup;
 			children = (
-				B7F4BE087B4C722BC6637BD8 /* Frameworks */,
-				C4B3CCD550D57A2931F78FB9 /* Pods */,
+				5032059C1F52345C0038B0A8 /* DeafHelper */,
+				503205AE1F52345C0038B0A8 /* DeafHelperTests */,
 				5032059B1F52345C0038B0A8 /* Products */,
-				5032059C1F52345C0038B0A8 /* TestApp */,
-				503205AE1F52345C0038B0A8 /* TestAppTests */,
+				6469496EA2A6A9CBDE273447 /* Pods */,
+				FF9A947D94F531B273B61490 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		5032059B1F52345C0038B0A8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5032059A1F52345C0038B0A8 /* TestApp.app */,
-				503205AB1F52345C0038B0A8 /* TestAppTests.xctest */,
+				5032059A1F52345C0038B0A8 /* DeafHelper.app */,
+				503205AB1F52345C0038B0A8 /* DeafHelperTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5032059C1F52345C0038B0A8 /* TestApp */ = {
+		5032059C1F52345C0038B0A8 /* DeafHelper */ = {
 			isa = PBXGroup;
 			children = (
 				501606A81F523B4F0029EE93 /* Helpers */,
 				501606A71F523B410029EE93 /* Source */,
 			);
-			path = TestApp;
+			name = DeafHelper;
+			path = DeafHelper;
 			sourceTree = "<group>";
 		};
-		503205AE1F52345C0038B0A8 /* TestAppTests */ = {
+		503205AE1F52345C0038B0A8 /* DeafHelperTests */ = {
 			isa = PBXGroup;
 			children = (
 				503205B11F52345C0038B0A8 /* Info.plist */,
 				503205AF1F52345C0038B0A8 /* TestAppTests.swift */,
 			);
-			path = TestAppTests;
+			name = DeafHelperTests;
+			path = DeafHelperTests;
 			sourceTree = "<group>";
 		};
-		B7F4BE087B4C722BC6637BD8 /* Frameworks */ = {
+		6469496EA2A6A9CBDE273447 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7F9086FAD694B00CCC455899 /* Pods_TestApp.framework */,
-				F007F466BA43B7F98D447A4C /* Pods_TestAppTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C4B3CCD550D57A2931F78FB9 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1B66026A5F429F02D11FE8DC /* Pods-TestApp.debug.xcconfig */,
-				4E79390BC8BE61DEBE70F126 /* Pods-TestApp.release.xcconfig */,
-				B5905F76FFDD399A0E72495B /* Pods-TestAppTests.debug.xcconfig */,
-				526DE3228AD007645C8AA737 /* Pods-TestAppTests.release.xcconfig */,
+				F3CC3DF75D6AE30444E87338 /* Pods-DeafHelper.debug.xcconfig */,
+				06DA2C583CE2C6B92F173C84 /* Pods-DeafHelper.release.xcconfig */,
+				B3CAD0A4D62E0A507DD348CF /* Pods-DeafHelperTests.debug.xcconfig */,
+				55F108CA348F98F3E5091705 /* Pods-DeafHelperTests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		FF9A947D94F531B273B61490 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27845276D2F45F747B00A35B /* Pods_DeafHelper.framework */,
+				0424CC2479AC26FC2902AF86 /* Pods_DeafHelperTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		503205991F52345C0038B0A8 /* TestApp */ = {
+		503205991F52345C0038B0A8 /* DeafHelper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 503205B41F52345C0038B0A8 /* Build configuration list for PBXNativeTarget "TestApp" */;
+			buildConfigurationList = 503205B41F52345C0038B0A8 /* Build configuration list for PBXNativeTarget "DeafHelper" */;
 			buildPhases = (
-				382906C80B08E9D98272A044 /* [CP] Check Pods Manifest.lock */,
+				DD3CEE566331CEB914588F6E /* [CP] Check Pods Manifest.lock */,
 				503205961F52345C0038B0A8 /* Sources */,
 				501606A61F523A2A0029EE93 /* SwiftLint Script */,
 				503205971F52345C0038B0A8 /* Frameworks */,
 				503205981F52345C0038B0A8 /* Resources */,
-				4A306BF7A01B33602040E92F /* [CP] Embed Pods Frameworks */,
-				AC66530874A572B094967A3A /* [CP] Copy Pods Resources */,
+				BD3826BDC703D9C05F8D3BDD /* [CP] Embed Pods Frameworks */,
+				C97B8F1CD087AF5A903B7DC6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TestApp;
+			name = DeafHelper;
 			productName = TestApp;
-			productReference = 5032059A1F52345C0038B0A8 /* TestApp.app */;
+			productReference = 5032059A1F52345C0038B0A8 /* DeafHelper.app */;
 			productType = "com.apple.product-type.application";
 		};
-		503205AA1F52345C0038B0A8 /* TestAppTests */ = {
+		503205AA1F52345C0038B0A8 /* DeafHelperTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 503205B71F52345C0038B0A8 /* Build configuration list for PBXNativeTarget "TestAppTests" */;
+			buildConfigurationList = 503205B71F52345C0038B0A8 /* Build configuration list for PBXNativeTarget "DeafHelperTests" */;
 			buildPhases = (
-				4AD016229CA6EB8F2FD3FB4C /* [CP] Check Pods Manifest.lock */,
+				E9EDA08061079313CB42A551 /* [CP] Check Pods Manifest.lock */,
 				503205A71F52345C0038B0A8 /* Sources */,
 				503205A81F52345C0038B0A8 /* Frameworks */,
 				503205A91F52345C0038B0A8 /* Resources */,
-				A9C2B84AB875236FF6415615 /* [CP] Embed Pods Frameworks */,
-				FA5C6D6AFC24F753A93A873A /* [CP] Copy Pods Resources */,
+				31231E1F69B425D960A218E7 /* [CP] Embed Pods Frameworks */,
+				CB4867357CB5765E386DDE6D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				503205AD1F52345C0038B0A8 /* PBXTargetDependency */,
 			);
-			name = TestAppTests;
+			name = DeafHelperTests;
 			productName = TestAppTests;
-			productReference = 503205AB1F52345C0038B0A8 /* TestAppTests.xctest */;
+			productReference = 503205AB1F52345C0038B0A8 /* DeafHelperTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -211,7 +211,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 503205951F52345C0038B0A8 /* Build configuration list for PBXProject "TestApp" */;
+			buildConfigurationList = 503205951F52345C0038B0A8 /* Build configuration list for PBXProject "DeafHelper" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -224,8 +224,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				503205991F52345C0038B0A8 /* TestApp */,
-				503205AA1F52345C0038B0A8 /* TestAppTests */,
+				503205991F52345C0038B0A8 /* DeafHelper */,
+				503205AA1F52345C0038B0A8 /* DeafHelperTests */,
 			);
 		};
 /* End PBXProject section */
@@ -249,25 +249,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		382906C80B08E9D98272A044 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TestApp-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4A306BF7A01B33602040E92F /* [CP] Embed Pods Frameworks */ = {
+		31231E1F69B425D960A218E7 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -279,25 +261,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestApp/Pods-TestApp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4AD016229CA6EB8F2FD3FB4C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TestAppTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DeafHelperTests/Pods-DeafHelperTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		501606A61F523A2A0029EE93 /* SwiftLint Script */ = {
@@ -314,7 +278,7 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"";
 		};
-		A9C2B84AB875236FF6415615 /* [CP] Embed Pods Frameworks */ = {
+		BD3826BDC703D9C05F8D3BDD /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -326,10 +290,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestAppTests/Pods-TestAppTests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DeafHelper/Pods-DeafHelper-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AC66530874A572B094967A3A /* [CP] Copy Pods Resources */ = {
+		C97B8F1CD087AF5A903B7DC6 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -341,10 +305,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestApp/Pods-TestApp-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DeafHelper/Pods-DeafHelper-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FA5C6D6AFC24F753A93A873A /* [CP] Copy Pods Resources */ = {
+		CB4867357CB5765E386DDE6D /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -356,7 +320,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestAppTests/Pods-TestAppTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DeafHelperTests/Pods-DeafHelperTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD3CEE566331CEB914588F6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DeafHelper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9EDA08061079313CB42A551 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DeafHelperTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -385,7 +385,7 @@
 /* Begin PBXTargetDependency section */
 		503205AD1F52345C0038B0A8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 503205991F52345C0038B0A8 /* TestApp */;
+			target = 503205991F52345C0038B0A8 /* DeafHelper */;
 			targetProxy = 503205AC1F52345C0038B0A8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -485,12 +485,12 @@
 		};
 		503205B51F52345C0038B0A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B66026A5F429F02D11FE8DC /* Pods-TestApp.debug.xcconfig */;
+			baseConfigurationReference = F3CC3DF75D6AE30444E87338 /* Pods-DeafHelper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 45Z84TYU2C;
-				INFOPLIST_FILE = TestApp/Helpers/Info.plist;
+				INFOPLIST_FILE = DeafHelper/Helpers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "pl.m-code.TestApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -500,12 +500,12 @@
 		};
 		503205B61F52345C0038B0A8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E79390BC8BE61DEBE70F126 /* Pods-TestApp.release.xcconfig */;
+			baseConfigurationReference = 06DA2C583CE2C6B92F173C84 /* Pods-DeafHelper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 45Z84TYU2C;
-				INFOPLIST_FILE = TestApp/Helpers/Info.plist;
+				INFOPLIST_FILE = DeafHelper/Helpers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "pl.m-code.TestApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -515,42 +515,42 @@
 		};
 		503205B81F52345C0038B0A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B5905F76FFDD399A0E72495B /* Pods-TestAppTests.debug.xcconfig */;
+			baseConfigurationReference = B3CAD0A4D62E0A507DD348CF /* Pods-DeafHelperTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 45Z84TYU2C;
-				INFOPLIST_FILE = TestAppTests/Info.plist;
+				INFOPLIST_FILE = DeafHelperTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "pl.m-code.TestAppTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestApp.app/Contents/MacOS/TestApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeafHelper.app/Contents/MacOS/DeafHelper";
 			};
 			name = Debug;
 		};
 		503205B91F52345C0038B0A8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 526DE3228AD007645C8AA737 /* Pods-TestAppTests.release.xcconfig */;
+			baseConfigurationReference = 55F108CA348F98F3E5091705 /* Pods-DeafHelperTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 45Z84TYU2C;
-				INFOPLIST_FILE = TestAppTests/Info.plist;
+				INFOPLIST_FILE = DeafHelperTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "pl.m-code.TestAppTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestApp.app/Contents/MacOS/TestApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeafHelper.app/Contents/MacOS/DeafHelper";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		503205951F52345C0038B0A8 /* Build configuration list for PBXProject "TestApp" */ = {
+		503205951F52345C0038B0A8 /* Build configuration list for PBXProject "DeafHelper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				503205B21F52345C0038B0A8 /* Debug */,
@@ -559,7 +559,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		503205B41F52345C0038B0A8 /* Build configuration list for PBXNativeTarget "TestApp" */ = {
+		503205B41F52345C0038B0A8 /* Build configuration list for PBXNativeTarget "DeafHelper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				503205B51F52345C0038B0A8 /* Debug */,
@@ -568,7 +568,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		503205B71F52345C0038B0A8 /* Build configuration list for PBXNativeTarget "TestAppTests" */ = {
+		503205B71F52345C0038B0A8 /* Build configuration list for PBXNativeTarget "DeafHelperTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				503205B81F52345C0038B0A8 /* Debug */,
