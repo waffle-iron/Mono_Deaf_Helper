@@ -1,7 +1,7 @@
 import XCTest
-@testable import TestApp
+@testable import DeafHelper
 
-class TestAppTests: XCTestCase {
+class DeafHelperTests: XCTestCase {
 
     override func setUp() {
         super.setUp()
