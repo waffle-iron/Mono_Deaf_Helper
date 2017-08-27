@@ -10,7 +10,7 @@
 		5032059E1F52345C0038B0A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5032059D1F52345C0038B0A8 /* AppDelegate.swift */; };
 		503205A01F52345C0038B0A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5032059F1F52345C0038B0A8 /* ViewController.swift */; };
 		503205A21F52345C0038B0A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 503205A11F52345C0038B0A8 /* Assets.xcassets */; };
-		503205B01F52345C0038B0A8 /* TestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503205AF1F52345C0038B0A8 /* TestAppTests.swift */; };
+		503205B01F52345C0038B0A8 /* DeafHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503205AF1F52345C0038B0A8 /* DeafHelperTests.swift */; };
 		503205BB1F52356D0038B0A8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503205BA1F52356D0038B0A8 /* main.swift */; };
 		71ACB44AEE705E25700268EF /* Pods_DeafHelperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0424CC2479AC26FC2902AF86 /* Pods_DeafHelperTests.framework */; };
 		7C38AA5986A9DEA85F658738 /* Pods_DeafHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27845276D2F45F747B00A35B /* Pods_DeafHelper.framework */; };
@@ -22,7 +22,7 @@
 			containerPortal = 503205921F52345C0038B0A8 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 503205991F52345C0038B0A8;
-			remoteInfo = TestApp;
+			remoteInfo = DeafHelper;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -36,7 +36,7 @@
 		503205A11F52345C0038B0A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		503205A61F52345C0038B0A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		503205AB1F52345C0038B0A8 /* DeafHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeafHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		503205AF1F52345C0038B0A8 /* TestAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAppTests.swift; sourceTree = "<group>"; };
+		503205AF1F52345C0038B0A8 /* DeafHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeafHelperTests.swift; sourceTree = "<group>"; };
 		503205B11F52345C0038B0A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		503205BA1F52356D0038B0A8 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		55F108CA348F98F3E5091705 /* Pods-DeafHelperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeafHelperTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DeafHelperTests/Pods-DeafHelperTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -88,9 +88,9 @@
 			children = (
 				5032059C1F52345C0038B0A8 /* DeafHelper */,
 				503205AE1F52345C0038B0A8 /* DeafHelperTests */,
-				5032059B1F52345C0038B0A8 /* Products */,
-				6469496EA2A6A9CBDE273447 /* Pods */,
 				FF9A947D94F531B273B61490 /* Frameworks */,
+				6469496EA2A6A9CBDE273447 /* Pods */,
+				5032059B1F52345C0038B0A8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,8 +115,8 @@
 		503205AE1F52345C0038B0A8 /* DeafHelperTests */ = {
 			isa = PBXGroup;
 			children = (
+				503205AF1F52345C0038B0A8 /* DeafHelperTests.swift */,
 				503205B11F52345C0038B0A8 /* Info.plist */,
-				503205AF1F52345C0038B0A8 /* TestAppTests.swift */,
 			);
 			path = DeafHelperTests;
 			sourceTree = "<group>";
@@ -161,7 +161,7 @@
 			dependencies = (
 			);
 			name = DeafHelper;
-			productName = TestApp;
+			productName = DeafHelper;
 			productReference = 5032059A1F52345C0038B0A8 /* DeafHelper.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -182,7 +182,7 @@
 				503205AD1F52345C0038B0A8 /* PBXTargetDependency */,
 			);
 			name = DeafHelperTests;
-			productName = TestAppTests;
+			productName = DeafHelperTests;
 			productReference = 503205AB1F52345C0038B0A8 /* DeafHelperTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -376,7 +376,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				503205B01F52345C0038B0A8 /* TestAppTests.swift in Sources */,
+				503205B01F52345C0038B0A8 /* DeafHelperTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
