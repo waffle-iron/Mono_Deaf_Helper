@@ -1,9 +1,9 @@
 [![Swift v4.0](https://img.shields.io/badge/swift-v4.0-orange.svg)](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/index.html#//apple_ref/doc/uid/TP40014097-CH3-ID0)
 
 # MonoDeafHelper
-👌 👌 This is project where I try to explore macOS app development 👌 👌<br/>
-👂👂  Make quick access to mono/stereo output mode, when I am switching between Headphones and Speakers 👂👂 <br/>
-🚀🚀🚀 Other thing is to make it as testable as possible 🚀🚀🚀 <br/>
+👌  This is project where I try to explore macOS app development 👌<br/>
+👂  Make quick access to mono/stereo output mode, when I am switching between Headphones and Speakers 👂 <br/>
+🚀 Other thing is to make it as testable as possible 🚀 <br/>
 
 ### Main TODO's
 
