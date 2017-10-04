@@ -1,3 +1,4 @@
+[![Waffle.io - Issues in progress](https://badge.waffle.io/Drwalcore/Mono_Deaf_Helper.png?label=in%20progress&title=In%20Progress)](https://waffle.io/Drwalcore/Mono_Deaf_Helper?utm_source=badge)
 [![Swift v4.0](https://img.shields.io/badge/swift-v4.0-orange.svg)](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/index.html#//apple_ref/doc/uid/TP40014097-CH3-ID0)
 
 # MonoDeafHelper
